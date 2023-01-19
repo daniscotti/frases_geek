@@ -55,6 +55,14 @@ p {
     font-size: 22px;
 }
 
+.frase::before {
+    content: '\201C';
+}
+
+.frase::after {
+    content: '\201D';
+}
+
 .autor {
     text-align: right;
     height: 10%;
