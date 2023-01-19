@@ -1,0 +1,62 @@
+body {
+    background-image: url("./img/bg.jpg");
+    background-color: bisque;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(197, 233, 221);
+    width: 25em;
+    height: 20%;
+    text-align: center;
+    padding: 2em 1em;
+    border: 1em solid whitesmoke;
+    border-bottom-color: black;
+    border-left-color: black;
+}
+
+button {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0 1em;
+    width: 55%;
+    height: 30%;
+    text-transform: uppercase;
+    background-color: rgb(173, 226, 209);
+    border: solid black;
+    border-top-color: white;
+    border-right-color: white;
+    transition: 600ms;
+}
+
+button:hover {
+    border: solid black;
+    border-bottom-color: white;
+    border-left-color: white;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+button:active {
+    border: solid black;
+}
+
+p {
+    margin: 0;
+}
+
+.frase {
+    height: 60%;
+    margin-top: 1em;
+    font-size: 22px;
+}
+
+.autor {
+    text-align: right;
+    height: 10%;
+    font-weight: bold;
+}
